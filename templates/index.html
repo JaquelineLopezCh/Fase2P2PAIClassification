@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P2P AI Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="container">
+        <section class="card">
+            <h1>Clasificación Automática de Facturas P2P</h1>
+            <p>Ingresa la descripción de una factura para obtener una clasificación automática.</p>
+            <textarea id="invoiceText" placeholder="Ejemplo: Purchase order for office supplies"></textarea>
+            <button onclick="predictInvoice()">Clasificar factura</button>
+            <div id="result" class="result"></div>
+        </section>
+    </main>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
