@@ -1,0 +1,13 @@
+text,label
+Purchase order for office supplies,PO Invoice
+PO invoice for raw materials,PO Invoice
+Supplier invoice related to purchase order,PO Invoice
+Invoice with purchase order number,PO Invoice
+Hotel reimbursement,Non PO Invoice
+Travel expense reimbursement,Non PO Invoice
+Utility bill without purchase order,Non PO Invoice
+Consulting expense without PO,Non PO Invoice
+Credit note from supplier,Credit Memo
+Supplier credit memo for returned goods,Credit Memo
+Credit adjustment for invoice correction,Credit Memo
+Refund note issued by vendor,Credit Memo
